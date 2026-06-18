@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#003366">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#003366"/>
+    <rect x="470" y="300" width="200" height="230" rx="24" fill="#FFC907"/>
+    <rect x="540" y="276" width="60" height="34" rx="10" fill="#FFC907"/>
+    <polygon points="570,360 620,440 520,440" fill="#003366"/>
+    <polygon points="570,470 620,390 520,390" fill="#003366"/>
+    <rect x="700" y="360" width="30" height="110" rx="6" fill="#FFC907"/>
+  </svg>
+</template>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:'Mulish',sans-serif;background:#fbfbf8;color:#1a1a1a;-webkit-font-smoothing:antialiased}
+    ::selection{background:#FFC907;color:#003366}
+  </style>
+</helmet>
+
+<div style="width:100%;overflow-x:hidden;background:#fbfbf8">
+
+  <!-- ============ HEADER ============ -->
+  <header style="position:sticky;top:0;z-index:50;background:#003366;border-bottom:1px solid rgba(255,255,255,0.08)">
+    <div style="max-width:1180px;margin:0 auto;padding:16px 32px;display:flex;align-items:center;justify-content:space-between">
+      <a href="#top" style="display:flex;align-items:center;text-decoration:none">
+        <img src="assets/logo-white.svg" alt="charity: water" style="height:30px;width:auto;display:block">
+      </a>
+      <nav style="display:flex;align-items:center;gap:34px">
+        <a href="#story" style="font-size:15px;font-weight:600;color:rgba(255,255,255,0.82);text-decoration:none">The Story</a>
+        <a href="#impact" style="font-size:15px;font-weight:600;color:rgba(255,255,255,0.82);text-decoration:none">Our Promise</a>
+        <a href="#proof" style="font-size:15px;font-weight:600;color:rgba(255,255,255,0.82);text-decoration:none">Proof</a>
+        <a href="#donate" style="background:#FFC907;color:#003366;font-weight:800;font-size:15px;padding:11px 22px;border-radius:8px;text-decoration:none">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="top" style="background:#003366;position:relative">
+    <div style="max-width:1180px;margin:0 auto;padding:84px 32px 96px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center">
+      <div>
+        <div style="display:inline-flex;align-items:center;gap:10px;margin-bottom:26px">
+          <span style="width:26px;height:2px;background:#FFC907"></span>
+          <span style="font-family:'Space Mono',monospace;font-size:13px;font-weight:700;letter-spacing:2px;color:#FFC907;text-transform:uppercase">100% goes to the field</span>
+        </div>
+        <h1 style="font-size:68px;line-height:1.02;font-weight:900;color:#fff;letter-spacing:-2px;margin-bottom:24px">Every Dollar<br>Writes a<br><span style="color:#FFC907">New Story.</span></h1>
+        <p style="font-size:20px;line-height:1.5;color:rgba(255,255,255,0.78);max-width:440px;margin-bottom:38px">100% of your donation goes directly to clean water projects — and we'll show you exactly where the change you made is.</p>
+        <div style="display:flex;align-items:center;gap:22px;flex-wrap:wrap">
+          <a href="#donate" style="background:#FFC907;color:#003366;font-weight:800;font-size:18px;padding:17px 38px;border-radius:9px;text-decoration:none;box-shadow:0 10px 30px rgba(255,201,7,0.3)">Donate Now</a>
+          <a href="#story" style="color:#fff;font-weight:700;font-size:16px;text-decoration:none;border-bottom:2px solid rgba(255,255,255,0.3);padding-bottom:3px">See the impact</a>
+        </div>
+      </div>
+      <div style="position:relative">
+        <div style="position:absolute;inset:18px -18px -18px 18px;background:#FFC907;border-radius:14px"></div>
+        <img src="assets/hero-water.png" alt="A child collecting water from a muddy puddle" style="position:relative;width:100%;aspect-ratio:540/400;object-fit:cover;border-radius:14px;display:block;box-shadow:0 24px 60px rgba(0,0,0,0.4)">
+      </div>
+    </div>
+    <div style="height:8px;background:#FFC907"></div>
+  </section>
+
+  <!-- ============ PROMISE STRIP ============ -->
+  <section id="impact" style="max-width:1180px;margin:0 auto;padding:80px 32px 40px">
+    <h2 style="font-size:36px;line-height:1.12;font-weight:900;color:#003366;letter-spacing:-1px;max-width:760px;margin-bottom:44px;text-wrap:balance">Together, we can bring clean and safe water to every person on the planet.</h2>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:28px">
+      <div style="padding:34px 30px;border:1px solid #eceae3;border-radius:14px;background:#fff">
+        <div style="font-family:'Space Mono',monospace;font-size:40px;font-weight:700;color:#003366;margin-bottom:8px">GPS</div>
+        <div style="font-size:17px;font-weight:800;color:#1a1a1a;margin-bottom:6px">Tagged projects</div>
+        <p style="font-size:15px;line-height:1.55;color:#666">We send you the photos and GPS coordinates of the exact project your gift funded. Proof, not promises.</p>
+      </div>
+      <div style="padding:34px 30px;border:1px solid #eceae3;border-radius:14px;background:#fff">
+        <div style="font-family:'Space Mono',monospace;font-size:40px;font-weight:700;color:#003366;margin-bottom:8px">703M</div>
+        <div style="font-size:17px;font-weight:800;color:#1a1a1a;margin-bottom:6px">Still waiting</div>
+        <p style="font-size:15px;line-height:1.55;color:#666">Hundreds of millions of people still live without clean water close to home. Your story starts with one of them.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STORY ============ -->
+  <section id="story" style="max-width:1180px;margin:0 auto;padding:60px 32px 90px;display:grid;grid-template-columns:320px 1fr;gap:56px;align-items:start">
+    <div style="position:relative">
+      <img src="assets/story-woman.png" alt="A woman carrying a jerry can of water across rocky terrain in Ethiopia" style="width:100%;aspect-ratio:290/460;object-fit:cover;object-position:50% 35%;border-radius:14px;display:block;box-shadow:0 18px 44px rgba(0,0,0,0.16)">
+    </div>
+    <div>
+      <div style="font-family:'Space Mono',monospace;font-size:13px;font-weight:700;letter-spacing:2px;color:#C9A100;text-transform:uppercase;margin-bottom:18px">A story of change · Tigray, Ethiopia</div>
+      <h2 style="font-size:42px;line-height:1.08;font-weight:900;color:#003366;letter-spacing:-1px;margin-bottom:24px;text-wrap:balance">When the walk gets shorter, everything changes.</h2>
+      <p style="font-size:19px;line-height:1.62;color:#444;max-width:620px;margin-bottom:18px">For years, women here began each morning the same way — a long walk to a distant pond to fill a jerry can with the same water their animals drank from. Hours of every day, gone to a chore that often left their families sick.</p>
+      <p style="font-size:19px;line-height:1.62;color:#444;max-width:620px;margin-bottom:30px">Then a clean water source arrived close to home. The walk got shorter. Girls who once carried water went back to their classrooms. Mothers found hours to farm and earn. Waterborne illness fell away. <strong style="color:#003366">Clean water didn't just change a day — it changed what was possible.</strong></p>
+
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:34px">
+        <div style="border-top:3px solid #FFC907;padding-top:12px">
+          <div style="font-size:15px;font-weight:800;color:#003366;margin-bottom:3px">Health</div>
+          <div style="font-size:13.5px;line-height:1.45;color:#666">Fewer waterborne illnesses</div>
+        </div>
+        <div style="border-top:3px solid #FFC907;padding-top:12px">
+          <div style="font-size:15px;font-weight:800;color:#003366;margin-bottom:3px">Education</div>
+          <div style="font-size:13.5px;line-height:1.45;color:#666">Girls back in the classroom</div>
+        </div>
+        <div style="border-top:3px solid #FFC907;padding-top:12px">
+          <div style="font-size:15px;font-weight:800;color:#003366;margin-bottom:3px">Women</div>
+          <div style="font-size:13.5px;line-height:1.45;color:#666">Hours of every day returned</div>
+        </div>
+        <div style="border-top:3px solid #FFC907;padding-top:12px">
+          <div style="font-size:15px;font-weight:800;color:#003366;margin-bottom:3px">Income</div>
+          <div style="font-size:13.5px;line-height:1.45;color:#666">Time to farm, work, and earn</div>
+        </div>
+      </div>
+
+      <div style="background:#003366;border-radius:14px;padding:24px 28px;display:flex;align-items:center;gap:30px;flex-wrap:wrap">
+        <div>
+          <div style="font-family:'Space Mono',monospace;font-size:30px;font-weight:700;color:#FFC907;line-height:1">21M+</div>
+          <div style="font-size:12.5px;color:rgba(255,255,255,0.7);margin-top:4px">people served</div>
+        </div>
+        <div style="width:1px;height:38px;background:rgba(255,255,255,0.15)"></div>
+        <div>
+          <div style="font-family:'Space Mono',monospace;font-size:30px;font-weight:700;color:#FFC907;line-height:1">209,200</div>
+          <div style="font-size:12.5px;color:rgba(255,255,255,0.7);margin-top:4px">water projects funded</div>
+        </div>
+        <div style="width:1px;height:38px;background:rgba(255,255,255,0.15)"></div>
+        <div>
+          <div style="font-family:'Space Mono',monospace;font-size:30px;font-weight:700;color:#FFC907;line-height:1">29</div>
+          <div style="font-size:12.5px;color:rgba(255,255,255,0.7);margin-top:4px">countries reached</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROOF ============ -->
+  <section id="proof" style="background:#003366">
+    <div style="max-width:1180px;margin:0 auto;padding:84px 32px">
+      <div style="max-width:700px;margin-bottom:54px">
+        <div style="font-family:'Space Mono',monospace;font-size:13px;font-weight:700;letter-spacing:2px;color:#FFC907;text-transform:uppercase;margin-bottom:18px">Give water. Get proof. Every single time.</div>
+        <h2 style="font-size:46px;line-height:1.05;font-weight:900;color:#fff;letter-spacing:-1.5px;margin-bottom:22px;text-wrap:balance">We prove every project you fund.</h2>
+        <p style="font-size:19px;line-height:1.6;color:rgba(255,255,255,0.78)">charity: water uses 100% of your donation to fund clean water around the world — then proves the work with GPS coordinates and photos of the exact project you paid for. No overhead. No guesswork. Just receipts.</p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:420px 1fr;gap:56px;align-items:center;margin-bottom:60px">
+        <div style="position:relative">
+          <img src="assets/clean-water.png" alt="Clean water pouring into a glass from a new tap stand" style="width:100%;aspect-ratio:360/440;object-fit:cover;object-position:50% 40%;border-radius:14px;display:block;box-shadow:0 22px 50px rgba(0,0,0,0.4)">
+          <div style="position:absolute;left:16px;bottom:16px;right:16px;background:rgba(0,16,38,0.82);border:1px solid rgba(255,255,255,0.16);border-radius:11px;padding:12px 15px;display:flex;align-items:center;gap:12px">
+            <span style="width:9px;height:9px;border-radius:50%;background:#FFC907;box-shadow:0 0 0 4px rgba(255,201,7,0.22);flex:none"></span>
+            <div>
+              <div style="font-family:'Space Mono',monospace;font-size:14px;font-weight:700;color:#fff;letter-spacing:0.5px">13.4967° N, 39.4753° E</div>
+              <div style="font-family:'Space Mono',monospace;font-size:11px;color:rgba(255,255,255,0.6);margin-top:2px">Tigray, Ethiopia · completed Mar 2024</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="display:flex;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,0.1)">
+            <span style="font-family:'Space Mono',monospace;font-size:15px;font-weight:700;color:#FFC907;width:34px;flex:none;padding-top:2px">01</span>
+            <div>
+              <div style="font-size:19px;font-weight:800;color:#fff;margin-bottom:5px">You give</div>
+              <p style="font-size:15.5px;line-height:1.5;color:rgba(255,255,255,0.72);max-width:520px">100% of your public donation goes straight to clean water projects. Private donors cover every operating cost, so nothing is skimmed off the top.</p>
+            </div>
+          </div>
+          <div style="display:flex;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,0.1)">
+            <span style="font-family:'Space Mono',monospace;font-size:15px;font-weight:700;color:#FFC907;width:34px;flex:none;padding-top:2px">02</span>
+            <div>
+              <div style="font-size:19px;font-weight:800;color:#fff;margin-bottom:5px">We build &amp; locate</div>
+              <p style="font-size:15.5px;line-height:1.5;color:rgba(255,255,255,0.72);max-width:520px">Local partners build the project, and every completed source is logged with GPS coordinates you can pin on a map.</p>
+            </div>
+          </div>
+          <div style="display:flex;gap:20px;padding:20px 0">
+            <span style="font-family:'Space Mono',monospace;font-size:15px;font-weight:700;color:#FFC907;width:34px;flex:none;padding-top:2px">03</span>
+            <div>
+              <div style="font-size:19px;font-weight:800;color:#fff;margin-bottom:5px">You get proof</div>
+              <p style="font-size:15.5px;line-height:1.5;color:rgba(255,255,255,0.72);max-width:520px">We send you photos and the exact location of the community your gift reached — so you see the change you made, every single time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="border-top:1px solid rgba(255,255,255,0.12);padding-top:32px">
+        <div style="font-family:'Space Mono',monospace;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:20px">Independently verified</div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+          <div style="border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:20px 22px">
+            <div style="font-size:17px;font-weight:800;color:#fff;margin-bottom:4px">Candid</div>
+            <div style="font-size:13.5px;color:rgba(255,255,255,0.65)">Platinum Seal of Transparency</div>
+          </div>
+          <div style="border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:20px 22px">
+            <div style="font-size:17px;font-weight:800;color:#fff;margin-bottom:4px">Charity Navigator</div>
+            <div style="font-size:13.5px;color:rgba(255,255,255,0.65)"><span style="color:#FFC907;letter-spacing:1px">★★★★</span> Four-Star Rating</div>
+          </div>
+          <div style="border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:20px 22px">
+            <div style="font-size:17px;font-weight:800;color:#fff;margin-bottom:4px">CharityWatch</div>
+            <div style="font-size:13.5px;color:rgba(255,255,255,0.65)">Top-Rated Charity</div>
+          </div>
+          <div style="border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:20px 22px">
+            <div style="font-size:17px;font-weight:800;color:#fff;margin-bottom:4px">BBB</div>
+            <div style="font-size:13.5px;color:rgba(255,255,255,0.65)">Accredited Charity</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DONATE CTA ============ -->
+  <section id="donate" style="background:#003366;position:relative">
+    <div style="max-width:1180px;margin:0 auto;padding:88px 32px;display:grid;grid-template-columns:1fr 0.9fr;gap:72px;align-items:center">
+      <div>
+        <div style="font-family:'Space Mono',monospace;font-size:13px;font-weight:700;letter-spacing:2px;color:#FFC907;text-transform:uppercase;margin-bottom:20px">Start a new story</div>
+        <h2 style="font-size:52px;line-height:1.04;font-weight:900;color:#fff;letter-spacing:-1.5px;margin-bottom:22px">Your gift becomes<br>someone's first<br>clean glass of water.</h2>
+        <p style="font-size:18px;line-height:1.55;color:rgba(255,255,255,0.72);max-width:430px">Pick an amount and we'll show you exactly where it goes. No overhead. No guesswork. Just water.</p>
+      </div>
+
+      <div style="background:#fff;border-radius:18px;padding:34px;box-shadow:0 30px 70px rgba(0,0,0,0.35)">
+        <div style="display:flex;background:#f1efe8;border-radius:11px;padding:5px;margin-bottom:24px">
+          <button onClick="{{ setOnce }}" style="{{ onceStyle }}">One-time</button>
+          <button onClick="{{ setMonthly }}" style="{{ monthlyStyle }}">Monthly</button>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:16px">
+          <sc-for list="{{ chips }}" as="chip" hint-placeholder-count="4">
+            <button onClick="{{ chip.onClick }}" style="{{ chip.style }}">{{ chip.label }}</button>
+          </sc-for>
+        </div>
+        <div style="position:relative;margin-bottom:22px">
+          <span style="position:absolute;left:16px;top:50%;transform:translateY(-50%);font-size:18px;font-weight:800;color:#888">$</span>
+          <input type="number" min="1" placeholder="Other amount" value="{{ customValue }}" onInput="{{ onCustom }}" onFocus="{{ onCustomFocus }}" style="width:100%;padding:14px 16px 14px 30px;font-family:'Mulish',sans-serif;font-size:16px;font-weight:700;color:#003366;border:2px solid #e5e2d8;border-radius:11px;outline:none">
+        </div>
+        <div style="background:#fff8df;border:1px solid #f3e4a8;border-radius:11px;padding:14px 16px;margin-bottom:22px;display:flex;align-items:center;gap:11px">
+          <span style="font-size:22px">💧</span>
+          <span style="font-size:14.5px;line-height:1.4;color:#5a4a00;font-weight:600">{{ impactText }}</span>
+        </div>
+        <button onClick="{{ donate }}" style="width:100%;background:#FFC907;color:#003366;font-weight:900;font-size:18px;padding:17px;border:none;border-radius:11px;cursor:pointer;box-shadow:0 8px 22px rgba(255,201,7,0.4)">{{ donateLabel }}</button>
+        <p style="text-align:center;font-size:12.5px;color:#999;margin-top:14px">100% of your donation funds clean water. Cancel monthly gifts anytime.</p>
+      </div>
+    </div>
+    <div style="height:8px;background:#FFC907"></div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer style="background:#002347;padding:50px 32px">
+    <div style="max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px">
+      <div style="display:flex;align-items:center">
+        <img src="assets/logo-white.svg" alt="charity: water" style="height:26px;width:auto;display:block">
+      </div>
+      <p style="font-size:13px;color:rgba(255,255,255,0.5);max-width:520px;text-align:right">A landing page concept for charity: water. Photography and copy adapted from the brand for an educational design project.</p>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { freq: 'once', amount: 40, custom: '' };
+
+  renderVals() {
+    const { freq, amount, custom } = this.state;
+    const amounts = freq === 'monthly' ? [10, 20, 40, 75] : [20, 40, 60, 120];
+    const active = custom ? Number(custom) : amount;
+
+    const chipBase = {
+      padding: '16px 0', fontFamily: 'Mulish,sans-serif', fontSize: '18px',
+      fontWeight: 800, borderRadius: '11px', cursor: 'pointer', textAlign: 'center',
+      transition: 'all .12s'
+    };
+    const chips = amounts.map(v => {
+      const sel = !custom && v === amount;
+      return {
+        label: '$' + v,
+        onClick: () => this.setState({ amount: v, custom: '' }),
+        style: sel
+          ? { ...chipBase, background: '#003366', color: '#fff', border: '2px solid #003366' }
+          : { ...chipBase, background: '#fff', color: '#003366', border: '2px solid #e5e2d8' }
+      };
+    });
+
+    const segBase = {
+      flex: 1, padding: '11px 0', fontFamily: 'Mulish,sans-serif', fontSize: '15px',
+      fontWeight: 800, border: 'none', borderRadius: '8px', cursor: 'pointer'
+    };
+    const segOn = { ...segBase, background: '#fff', color: '#003366', boxShadow: '0 1px 4px rgba(0,0,0,0.12)' };
+    const segOff = { ...segBase, background: 'transparent', color: '#8a8675' };
+
+    const people = Math.max(1, Math.round(active / 40));
+    const impactText = active >= 40
+      ? `Your $${active}${freq === 'monthly' ? '/mo' : ''} can bring clean water to ${people} ${people === 1 ? 'person' : 'people'}.`
+      : `Every dollar adds up — $40 brings clean water to one person.`;
+
+    return {
+      chips,
+      onceStyle: freq === 'once' ? segOn : segOff,
+      monthlyStyle: freq === 'monthly' ? segOn : segOff,
+      setOnce: () => this.setState({ freq: 'once', amount: 40, custom: '' }),
+      setMonthly: () => this.setState({ freq: 'monthly', amount: 40, custom: '' }),
+      customValue: custom,
+      onCustom: (e) => this.setState({ custom: e.target.value }),
+      onCustomFocus: () => {},
+      impactText,
+      donateLabel: `Donate $${active || 0}${freq === 'monthly' ? ' / month' : ''}`,
+      donate: () => alert(`Thank you! Your ${freq === 'monthly' ? 'monthly' : 'one-time'} gift of $${active} will fund clean water projects. 💧`)
+    };
+  }
+}
+</script>
+</body>
+</html>
